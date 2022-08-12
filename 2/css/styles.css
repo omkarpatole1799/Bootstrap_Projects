@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    border-radius: 40px;
+}
+
+.rightSide{
+    text-align: center;
+}
+
+form input {
+    text-align: center;
+}
+.fa {
+    font-size: 50px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+}
+
+.image {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* new css */
+
