@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
     text-align: center;
 }
-
+/* css reset */
 *, *::after,*::before {
     box-sizing: inherit;
     
