@@ -5,7 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/0cf7636154.js" crossorigin="anonymous"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
@@ -48,14 +55,15 @@
     <div id="skills">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 pt-5 pb-5">
+                <div class="col-md-12 pt-4 pb-2">
                     <h2>Skills</h2>
                 </div>
                 <div class="col-md-4">
-                    <div class="skill-box"><i class="fa fa-brands fa-html5 pt-4 pb-4"></i>
+                    <div class="skill-box pl-4"><i class="fa fa-brands fa-html5 pt-4 pb-4"></i>
                         <div>
                             <h3>HTML</h3>
-                            <p>I can work with HTML</p>
+                            <p>I can work with HTML. HTML is the standard markup language for documents designed to be
+                                displayed in a web browser</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +71,8 @@
                     <div class="skill-box"><i class="fa fa-brands fa-css3 pt-4 pb-4"></i>
                         <div>
                             <h3>CSS</h3>
-                            <p>I can work with css3</p>
+                            <p>I can work with css3. Cascading Style Sheets is a style sheet language used for
+                                describing the presentation of a document</p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +80,8 @@
                     <div class="skill-box"><i class="fa fa-brands fa-bootstrap pt-4 pb-4"></i>
                         <div>
                             <h3>Bootstrap</h3>
-                            <p>I can work with bootstrap framework</p>
+                            <p>I can work with bootstrap framework. Bootstrap is a framework
+                                directed at responsive, mobile-first front-end web development. </p>
                         </div>
                     </div>
                 </div>
@@ -79,20 +89,100 @@
         </div>
     </div>
 
-    <!-- about section -->
-    <div id="about">
+    <!-- contact section -->
+    <!-- <div id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    <h2>Get in touch!</h2>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="skill-box">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div>
+                        <h3>Linked In</h3>
+                    </div>
 
                 </div>
-                <div class="col-md-4">Linked In</div>
-                <div class="col-md-4">Twitter</div>
-                <div class="col-md-4">Email</div>
+                <div class="col-md-4">
+                    <div class="skill-box">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div>
+                        <h3>Twitter</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="skill-box">
+                        <i class="fa-solid fa-envelope-open"></i>
+                    </div>
+                    <div>
+                        <h3>Mail</h3>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
+    </div> -->
 
+    <!-- contact section -->
+    <div class="container contact-box">
+        <div class="row">
+
+            <div class="col-md-6 form-group">
+                <div class="form-row m-5">
+                    <div class="col-6">
+                        <h1><i class="fa fa-solid fa-circle-nodes"></i></h1>
+                        <h4>Contact me!</h4>
+                    </div>
+                    <p>I'm happy to answer any query you got!</p>
+                    <form action="">
+                        <div class="form-outline mb-3">
+                            <input type="text" class="form-text form-control" placeholder="Name">
+                        </div>
+
+                        <div class="form-outline mb-3">
+                            <input type="text" class="form-text form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-outline mb-3">
+                            <input type="text" width="50" class="form-text form-control" placeholder="Message">
+                        </div>
+                    </form>
+
+                    <button class="btn btn-dark col-6 mt-1">Submit</button>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6 social-box">
+                <div class="heading pt-5">
+                    <h3>Socials</h3>
+                </div>
+                <div class="pt-5">
+                    <i class="fa fa-brands fa-linkedin-in"></i>
+                    <h5>Linked In</h5>
+                </div>
+
+                <div class="pt-2">
+                    <i class="fa fa-brands fa-twitter"></i>
+                    <h5>Twitter</h5>
+                </div>
+
+                <div class="pt-2">
+                    <i class="fa fa-solid fa-envelope-open"></i>
+                    <h5>Email</h5>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

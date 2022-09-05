@@ -2,6 +2,7 @@
     background: url('/bg4.jpg') no-repeat center center;
     background-size: cover;  
     height: 100vh;  
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner-title {
@@ -18,9 +19,8 @@
 #skills {
     text-align: center;
     background-color: #DCD7C9;
-    border: 2px solid red;
-
 }
+
 .skill-box{
     text-align: center;
 }
@@ -31,4 +31,15 @@
 
 #about {
     text-align: center;
+}
+
+.contact-box {
+
+}
+
+.social-box i.fa {
+    font-size: 40px;
+}
+.test1 {
+    border: 2px solid red;
 }
